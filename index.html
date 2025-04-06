@@ -481,7 +481,7 @@
       <div class="modal">
         <button type="button" class="modal-clos-btn">
           <svg class="modal-close-icon" width="8" height="8">
-            <use href="./icons.svg#icon-close"></use>
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
 
@@ -498,7 +498,7 @@
                 required
               />
               <svg class="modal-icon" width="18" height="24">
-                <use href="./icons.svg#icon-person"></use>
+                <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
           </div>
@@ -513,7 +513,7 @@
                 required
               />
               <svg class="modal-icon" width="18" height="24">
-                <use href="./icons.svg#icon-phone"></use>
+                <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
@@ -527,37 +527,35 @@
                 id="user-mail"
               />
               <svg class="modal-icon" width="18" height="24">
-                <use href="./icons.svg#icon-email"></use>
+                <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
           <div class="modal-field-comment">
             <label for="user-comment" class="modal-label">Comment</label>
-            <div class="modal-input-spot">
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-                class="modal-input modal-textarea"
-              ></textarea>
-            </div>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="modal-input modal-textarea"
+            ></textarea>
           </div>
 
           <div class="modal-field-checkbox">
             <input
               type="checkbox"
               name="policy"
-              id="policy"
+              id="user-privacy"
               class="modal-check visually-hidden"
               value="true"
             />
-            <label for="policy" class="modal-policy-check"
-              ><span>
+            <label for="user-privacy" class="modal-policy-check"
+              ><span class="modal-check-span">
                 <svg class="modal-check-icon" width="10" height="8">
-                  <use href="./icons.svg#icon-check"></use>
+                  <use href="./images/icons.svg#icon-check"></use>
                 </svg> </span
               >I accept the terms and conditions of the&nbsp;
-              <a href="">Privacy Policy</a></label
+              <a href="" class="modal-check-link">Privacy Policy</a></label
             >
           </div>
 
