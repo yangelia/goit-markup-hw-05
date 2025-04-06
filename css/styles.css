@@ -181,7 +181,7 @@ img {
 }
 
 .footer-subscribe {
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .footer-form {
@@ -686,7 +686,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  color: #2e2f42;
 }
 
 .modal-textarea::placeholder {
@@ -705,8 +704,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
 }
 
 .modal-check-span {
