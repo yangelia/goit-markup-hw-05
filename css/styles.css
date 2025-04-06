@@ -542,7 +542,7 @@ img {
   color: #434455;
 }
 
-.bg-modal {
+.backdrop {
   width: 100%;
   height: 100%;
   position: fixed;
